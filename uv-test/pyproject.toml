@@ -1,0 +1,19 @@
+[project]
+name = "uv-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "nl", email = "naliang.dev@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openai>=3.31.0",
+]
+
+[project.scripts]
+uv-test = "uv_test:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"

@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境（每个 uv 项目的 .venv 都不进 git）
+.venv/
+
+# 环境变量与密钥（API key 推上公开仓库几分钟就会被扫走，绝不提交）
+.env
+.env.*
+*.key
+
+# IDE / 编辑器
+.idea/
+.vscode/
+
+# 系统杂物
+Thumbs.db
+.DS_Store

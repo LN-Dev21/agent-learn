@@ -21,3 +21,6 @@ Thumbs.db
 
 # Jupyter 自动检查点
 .ipynb_checkpoints/
+
+# Jupyter 自动检查点
+.ipynb_checkpoints/
